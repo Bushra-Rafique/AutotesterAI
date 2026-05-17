@@ -1,0 +1,37 @@
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# ── Environment / Secrets ────────────────────────────────────
+.env
+!.env.example
+
+# ── Flutter / Dart ───────────────────────────────────────────
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+mobile/build/
+mobile/coverage/
+mobile/android/app/debug
+mobile/android/app/profile
+mobile/android/app/release
+
+# ── IDE ──────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.swp
+.DS_Store
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
